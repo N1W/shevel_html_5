@@ -29,25 +29,30 @@
 	<div class="wrapper">
 		<div class="container">
 			<h1>Cadastre-se</h1>
-			<form action="">
-				<input type="image" src="img/FB.png" alt="facebook login">
-			</form>
-			<p class="registration">&nbsp;&nbsp;OU&nbsp;&nbsp;</p>
 			<form action="#" class="main">
+				<button>
+				<div class="fb_icon">
+					<img src="img/FB_icon.png" class="fb_i" alt="fb">
+				</div>
+				<p class="fb_title">Log In <span>with</span> Facebook</p>
+				<img src="img/FB_arrow.png" class="fb_arrow" alt="">
+				</button>
+				<!--<input type="image" src="img/FB_icon.png" class="fb_icon" alt="facebook login">-->
+				<p class="registration">&nbsp;&nbsp;OU&nbsp;&nbsp;</p>
 				<div class="form">
-					<input class="form" type="text" name="first_name" placeholder="First Name">
+					<input class="form" required type="text" name="first_name" placeholder="First Name">
 				</div>
 				<div class="form">
-					<input class="form" type="text" name="last_name" placeholder="Last Name">
+					<input class="form" required type="text" name="last_name" placeholder="Last Name">
 				</div>
 				<div class="form">
-					<input class="form" type="email" name="email" placeholder="Email Adress">
+					<input class="form" required type="email" name="email" placeholder="Email Adress">
 				</div>
 				<div class="form">
-					<input class="form" type="password" name="password" placeholder="Choose Password">
+					<input class="form" required type="password" name="password" placeholder="Choose Password">
 				</div>
 				<div class="form">
-					<input class="form" type="password" name="confirm_password" placeholder="Password Confirm">
+					<input class="form" required type="password" name="confirm_password" placeholder="Password Confirm">
 				</div>
 				<div class="clearfix">
 					<label>

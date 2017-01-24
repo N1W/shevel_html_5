@@ -113,8 +113,7 @@ header {
 
 .wrapper {
 	height: 814px;
-	background-image: url(../img/bcg.jpg);
-	background-size: 100%;
+	background-image: url(../img/puteshestvie_po_miru_na_velosipede.jpg);
 	padding-top: 213px;
 }
 
@@ -133,9 +132,8 @@ h1 {
 	border-bottom: 2px solid #bdc7af;
 }
 
-input[type="image"] {
-	margin-top: 36px;
-	margin-bottom: 33px;
+input {
+	padding-left: 20px;
 }
 
 .registration {
@@ -169,7 +167,7 @@ input[type="image"] {
 input.form {
 	margin-bottom: 16px;
 	height: 35px;
-	width: 276px;
+	width: 256px;
 	color: #fff;
 	background-color: #0f0f0f;
 	border: none;
@@ -184,7 +182,6 @@ input.form:focus {
 }
 
 input.form::-webkit-input-placeholder {
-	padding-left: 19px; 
 	color: #ccc;
 	font-size: 14px;
 	line-height: 16px;
@@ -225,4 +222,47 @@ input.create {
 
 .footer p {
 	margin-bottom: 0;
+}
+
+button {
+	background: url(../img/FB_bkg.png);
+	width: 276px;
+	height: 35px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 36px;
+	margin-bottom: 33px;
+	cursor: pointer;
+}
+
+.fblogo {
+	height: 35px;
+}
+
+.fb_icon {
+	float: left;
+	margin: 0 0 0 0;
+	padding: 7px 11px 0 10px;
+	border-right: 1px solid #1e3b73;
+	height: 27px;
+}
+
+.fb_title {
+	float: left;
+	margin: 0 0 0 0;
+	padding: 7px 0 0 24px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	border-left: 1px solid #4c66a3;
+	height: 27px;
+}
+
+.fb_title span {
+	font-weight: normal;
+}
+
+.fb_arrow {
+	float: right;
+	padding: 10px 15px 0 0;
 }
